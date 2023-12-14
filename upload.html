@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/upload-style.css">
+    <title>Upload Song</title>
+</head>
+
+<body>
+
+    <h2>Upload a Song</h2>
+
+    <form action="php/upload.php" method="post" enctype="multipart/form-data">
+        <label for="artist">Artist:</label>
+        <input type="text" id="artist" name="artist" required>
+
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="song">Select a song:</label>
+        <input type="file" id="song" name="song" accept=".mp3, .ogg" required>
+
+        <button type="submit">Upload</button>
+    </form>
+
+</body>
+
+</html>
