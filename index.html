@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Daniel Hartwich - Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Daniel Nikolaj Hartwich</h1>
+            <p>Datateknikker med speciale i programmering</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="text">
+                    <p>Jeg er en positiv og udadvendt ung mand på 21 år. Jeg er i gang med min drømmeuddannelse, og går
+                        på en
+                        EUX uddannelse på TEC hvor jeg for det meste befinder mig ude i Ballerup. I min fritid spiller
+                        jeg en
+                        del på min computer,
+                        bruger så meget tid med min kæreste som muligt, ellers er jeg sammen med min familie og har
+                        kvalitetstid.
+                        Mens jeg gik i 9. klasse, havde jeg et fritidsjob i en restaurant.
+                        Jeg har også haft et fritidsjob i Super Brugsen, hvor jeg arbejdede hver anden weekend, der var
+                        jeg
+                        ansat i 10 - 11
+                        måneder, indtil jeg fyldte 18 år.
+                        Efter mit første 2 dages praktikforløb på skolen med IT, var jeg slet ikke i tvivl om at det er
+                        det som
+                        jeg skal. Jeg har været
+                        i en ugens praktikforløb hos Arriva Danmark, i deres IT-afdeling som primært har med support
+                        delen at
+                        gøre, og jeg
+                        syntes det var meget spændende, men ønsker at beskæftige mig som Data Teknikker med
+                        Programmering som
+                        speciale. Lige nu mangler jeg kun 2 år mere ad min uddannelse før jeg bliver færdig og derefter
+                        er mine
+                        ønske kommer
+                        straks ud at arbejde i en virksomhed.</p>
+                </div>
+                <div class="image">
+                    <img src="images/Dan.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Add your projects here -->
+            <div class="project-container">
+                <div class="project">
+                    <a href="https://github.com/Drenzy/TicketToRide-Project-Website"><img src="images/githublogo.png"
+                            alt="Project 1"></a>
+                    <h3>Ticket To Ride Website</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/Drenzy/Webshop-group-h3"><img src="images/githublogo.png"
+                            alt="Project 1"></a>
+                    <h3>Webshop ASP.NET med Angular</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+                <div class="project">
+                    <a href=""><img src="images/githublogo.png" alt="Project 1"></a>
+                    <h3>?</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <a href=""><img src="images/githublogo.png" alt="Project 1"></a>
+                    <h3>?</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <a href=""><img src="images/githublogo.png" alt="Project 1"></a>
+                    <h3>?</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <a href=""><img src="images/githublogo.png" alt="Project 1"></a>
+                    <h3>?</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me or download my Resume</h2>
+            <form action="https://formspree.io/f/mbjvnnye" method="POST" id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="buttons-container">
+                <button class="download-button" onclick="downloadPdf()">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
