@@ -42,6 +42,7 @@ section h2 {
 .text {
   flex: 1;
   max-width: 60%;
+  line-height: 1.6; 
 }
 
 .text p {
@@ -51,6 +52,19 @@ section h2 {
 .image {
   max-width: 300px;
   margin-left: 20px;
+}
+
+.LinkedIn a {
+  color: #134560; /* LinkedIn blue color */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #0077b5; /* Add a bottom border for a link-like appearance */
+  transition: border-bottom 0.3s ease; /* Add a smooth transition effect on hover */
+}
+
+.LinkedIn a:hover {
+  border-bottom: 2px solid #0c212e; /* Darker blue on hover */
 }
 
 /* Smaller screens (phones) */
